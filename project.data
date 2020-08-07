@@ -1,0 +1,104 @@
+#Company
+ IBM		IBM		 Rochester, MN	  507-765-4321
+ Intel		Intel		 Tucson, AZ	  602-987-6543
+ MicroSoft      MicroSoft	 Seattle, WA      206-345-6789
+ HP		HP 		 SanJose, CA     408-123-4567
+#Department
+ system_IBM	system		 IBM
+ system_Intel	system		 Intel
+ software_IBM 	software	 IBM
+ software_HP	software	 HP
+ application 	application	 MicroSoft
+ GUI		GUI 		 MicroSoft
+ RISC		RISC		 Intel
+ OS		OS		 HP
+#Manager
+ Bred		Bred		Rochester, MN	507-765-0324	107-73-4321	 IBM		 software_IBM
+ Cindy		Cindy		Rochester, MN	507-765-2324	307-73-4321	 IBM		 software_IBM
+ Barry		Barry		Rochester, MN	507-765-3324	407-73-4321	 IBM		 software_IBM
+ Susan		Susan		Tucson, AZ      602-967-6541	153-45-9876	 Intel		 system_Intel
+ Harry		Harry		Tucson, AZ      602-977-6541	163-45-9876	 Intel		 system_Intel
+ Marry		Marry		Tucson, AZ      602-987-6541	173-45-9876	 Intel		 system_Intel
+ James		James		Rochester, MN	507-765-0344	107-13-4321	 IBM		 system_IBM
+ John		John		SanJose, CA    408-921-4567	987-61-4321	 HP		 software_HP
+ Rebecca	Rebecca		SanJose, CA    408-124-4567	937-65-4321	 HP		 software_HP
+ Alex		Alex		Seattle, WA     206-341-6689	456-78-0113	 MicroSoft	 application
+ Paulina	Paulina		Seattle, WA     206-343-6689	456-78-0133	 MicroSoft	 application
+ Ron		Ron		Seattle, WA     206-346-6689	456-78-0193	 MicroSoft	 application
+ Michelle	Michelle	Seattle, WA     206-347-6689	456-78-0173	 MicroSoft	 GUI
+ Steve		Steve		Tucson, AZ      602-967-9541	159-45-9876	 Intel		 RISC
+ Jane		Jane		SanJose, CA    408-921-4067	907-61-4321	 HP		 OS
+#Project
+ Alpha		Alpha		$3,000,000	 software_IBM 		 Cindy
+ Beta		Beta		$1,500,000	 software_IBM		 Cindy
+ Gamma		Gamma		  $700,000	 software_IBM		 Bred
+ Delta		Delta		  $900,000	 software_IBM		 Barry
+ Epsilon	Epsilon		$8,000,000	 system_Intel		 Susan
+ Zata		Zata		$1,000,000	 system_Intel		 Harry
+ Theta		Theta		  $500,000	 system_Intel		 Marry
+ Sigma		Sigma		  $700,000	 system_IBM		 James
+ Iota		Iota		$5,000,000	 software_HP		 John
+ Lambda		Lambda		  $600,000	 software_HP		 Rebecca
+ Eta		Eta		  $900,000	 application		 Alex
+ Tau		Tau		  $500,000	 application		 Paulina
+ Phi		Phi		$1,000,000	 application		 Ron
+ Omega		Omega		$2,000,000	 GUI			 Michelle
+ Upsilon	Upsilon		$5,000,000	 RISC			 Steve
+ Kappa		Kappa		$3,000,000	 OS			 Jane
+#Product
+ Catalina  Catalina	Design      $300,000	3.0	    1		 Alpha		 IBM
+ Solana	   Solana	Testing	    $600,000	2.3	    3		 Alpha		 IBM
+ Sunset	   Sunset	Operational $400,000	1.3	    2		 Alpha		 IBM
+ Atlantis  Atlantis	Coding	    $200,000    1.1         5		 Alpha		 IBM
+ Aquila	   Aquila	Design	    $100,000	0.5	    2		 Alpha		 IBM
+ Bonita    Bonita	Coding	    $100,000	1.0	    1		 Alpha		 IBM
+ Pollux	   Pollux	Testing	    $600,000    2.3	    7		 Beta		 IBM
+ Naran	   Naran	Design	    $300,000	0.9	    3		 Gamma		 IBM
+ Mensa	   Mensa	Operational $850,000	4.1	    4		 Delta		 IBM
+ Aludra	   Aludra       Operational $3,000,000  3.3	    8            Epsilon	 Intel
+ Girtab    Girtab	Testing	    $2,500,000  1.4         7		 Epsilon	 Intel
+ Phakt	   Phakt	Design	    $700,000	1.0	    6		 Zata		 Intel
+ Nunki	   Nunki	Coding	    $400,000    1.1    	    5		 Theta		 Intel
+ Skat	   Skat		Coding	    $750,000    2.2	    1		 Sigma		 IBM
+ Solar	   Solar	Testing	    $3,000,000  2.0 	    10		 Iota		 HP
+ Varne	   Varne	Operational $1,000,000  4.2	    9		 Iota		 HP
+ Arisbe	   Arisbe	Design	    $100,000	1.0	    2		 Lambda		 HP
+ Axius	   Axius	Testing	    $800,000    2.4	    3		 Eta		 MicroSoft
+ Hyde	   Hyde		Operational $500,000    3.2	    1		 Tau		 MicroSoft
+ Mycale	   Mycale	Testing	    $900,000    2.3         2 		 Phi		 MicroSoft
+ Percote   Percote	Coding	    $1,500,000  1.3	    4		 Omega		 MicroSoft
+ Simois	   Simois	Design	    $900,000    1.1	    3		 Upsilon	 Intel
+ Xanthus   Xanthus	Coding	    $1,500,000  2.2	    1		 Kappa		 HP
+#Engineer
+ Lori	Lori	Rochester, MN	507-765-4321	123-45-6789	 IBM		Designer	 software_IBM	 Catalina	 Alpha	
+ Jose	Jose	Rochester, MN	507-765-4322	507-71-4321	 IBM		Designer	 software_IBM	 Catalina	 Alpha
+ roni	roni	Rochester, MN	507-765-4323	507-72-4321	 IBM		Designer	 software_IBM	 Catalina	 Alpha
+ Cyber	Cyber	Rochester, MN	507-765-4324	507-73-4321	 IBM		Tester		 software_IBM	 Solana		 Alpha
+ David	David	Rochester, MN	507-765-4325	507-74-4321	 IBM		Tester		 software_IBM	 Solana		 Alpha
+ Jason	Jason	Rochester, MN	507-765-4326	507-75-4321	 IBM		Tester		 software_IBM	 Sunset		 Alpha
+ Tony	Tony	Rochester, MN	507-765-4327	507-76-4321	 IBM		Programmer	 software_IBM	 Atlantis	 Alpha
+ Carlos	Carlos	Rochester, MN	507-765-4328	507-77-4321	 IBM		Designer	 software_IBM	 Aquila		 Alpha
+ June	June	Rochester, MN	507-765-4329	507-78-4321	 IBM		Programmer	 software_IBM	 Bonita		 Alpha
+ Julia	Julia	Rochester, MN	507-765-4320	507-79-4321	 IBM		Tester		 software_IBM	 Pollux		 Beta
+ Dirk	Dirk	Rochester, MN	507-765-4331	507-70-4321	 IBM		Tester		 software_IBM	 Pollux		 Beta
+ Angela	Angela	Rochester, MN	507-765-4341	507-61-4321	 IBM		Designer	 software_IBM	 Naran		 Gamma
+ Brian	Brian	Rochester, MN	507-765-4351	507-23-4321	 IBM		Designer	 software_IBM	 Naran		 Gamma
+ Luis	Luis	Rochester, MN	507-765-4361	507-13-4321	 IBM		Tester		 software_IBM	 Mensa		 Delta
+ Bill	Bill	Tucson, AZ      602-987-6541	123-45-9876	 Intel		Tester		 system_Intel	 Aludra		 Epsilon
+ Julie	Julie	Tucson, AZ      602-987-6542	223-45-9876	 Intel		Tester		 system_Intel	 Aludra		 Epsilon
+ Eric	Eric	Tucson, AZ      602-987-6543	323-45-9876	 Intel		Tester		 system_Intel	 Girtab		 Epsilon
+ Joseph	Joseph	Tucson, AZ      602-987-6545	423-45-9876	 Intel		Designer	 system_Intel	 Phakt		 Zata
+ Craig	Craig	Tucson, AZ      602-987-6546	523-45-9876	 Intel		Programmer	 system_Intel	 Nunki		 Theta
+ Gino	Gino	Tucson, AZ      602-987-6547	623-45-9876	 Intel		Programmer	 system_Intel	 Nunki		 Theta
+ Alan	Alan	Rochester, MN	507-765-5321	133-45-6789	 IBM		Programmer	 system_IBM	 Skat		 Sigma
+ Mike	Mike	SanJose, CA    408-121-4567	987-65-4321	 HP		Tester		 software_HP	 Solar		 Iota
+ Tom	Tom	SanJose, CA    408-122-4567	987-65-4331	 HP		Tester		 software_HP	 Solar		 Iota
+ Jim	Jim	SanJose, CA    408-123-4567	987-65-4322	 HP		Tester		 software_HP	 Varne		 Iota
+ Kevin	Kevin	SanJose, CA    408-124-4567	987-65-4313	 HP		Designer	 software_HP	 Arisbe		 Lambda
+ Paul	Paul	Seattle, WA     206-345-6689	456-78-0123	 MicroSoft	Tester		 application	 Axius		 Eta
+ Al	Al	Seattle, WA     206-345-6789	456-88-0123	 MicroSoft	Tester		 application	 Axius		 Eta
+ Ellis	Ellis	Seattle, WA     206-345-6889	456-18-0123	 MicroSoft	Tester		 application	 Hyde		 Tau
+ Peter	Peter	Seattle, WA     206-345-6989	456-38-0123	 MicroSoft	Tester		 application	 Mycale		 Phi
+ Bud	Bud	Seattle, WA     206-345-6589	456-34-0123	 MicroSoft	Programmer	 GUI		 Percote	 Omega
+ kate	Kate	Tucson, AZ      602-987-6543	567-89-0123	 Intel  	Designer	 RISC		 Simois		 Upsilon
+ Sam	Sam	SanJose, CA    408-123-456	876-23-9756	 HP		Programmer	 OS		 Xanthus	 Kappa
